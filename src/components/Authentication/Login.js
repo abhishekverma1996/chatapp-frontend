@@ -40,7 +40,7 @@ const Login = () => {
       };
 
       const { data } = await axios.post(
-        "/api/user/login",
+        "https://chatapp-api-oek4.onrender.com/api/user/login",
         { email, password },
         config
       );
