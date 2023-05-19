@@ -206,7 +206,6 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             h="100%"
             borderRadius="lg"
             overflowY="hidden"
-            backgroundImage={"./background.png"}
           >
             {loading ? (
               <Spinner
